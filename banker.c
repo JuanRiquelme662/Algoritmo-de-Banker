@@ -66,7 +66,7 @@ int validar_linha(const char *linha, int m, int *valores){
     const char *p = linha;
 
     for (int j = 0; j < m; j++) {
-        //uso isdigit porque strtol aceita espacos em branco, mas nao queremos aceitar
+        //uso isdigit porque strtol aceita espacos em branco, mas nao quero aceitar
         if (!isdigit((unsigned char)*p))
             return -1;
 
@@ -81,13 +81,13 @@ int validar_linha(const char *linha, int m, int *valores){
             valores[j] = (int)valor;
 
         if (j < m - 1) {
-            // ainda faltam numeros: tem que vir uma virgula logo depois
+            //ainda faltam numeros: tem que vir uma virgula logo depois
             if (*fim != ',')
                 return -1;
             p = fim + 1;
         } else {
-            // ultimo numero: a linha tem que acabar aqui
-            // (sobrar virgula ou texto significa colunas a mais ou lixo)
+            //ultimo numero, a linha tem que acabar aqui
+            //(sobrar virgula ou texto significa colunas a mais ou lixo)
             if (*fim != '\0')
                 return -1;
         }
@@ -95,17 +95,96 @@ int validar_linha(const char *linha, int m, int *valores){
     return 0;
 }
 
+int **alocar_matriz(int n, int m){
+    int **matriz = calloc(n, sizeof(int *));
+    if (matriz == NULL)
+        return NULL;
+
+    for (int i = 0; i < n; i++) {
+        matriz[i] = calloc(m, sizeof(int));
+        if (matriz[i] == NULL) {
+            for (int j = 0; j < i; j++)
+                free(matriz[j]);
+            free(matriz);
+            return NULL;
+        }
+    }
+    return matriz;
+}
+
 int ler_customer(estado *estado_sistema){
-    int resultado = -1;   
     FILE *arquivo = fopen("customer.txt", "r");
 
     if (arquivo == NULL) {
         fprintf(stderr, "Erro: nao foi possivel abrir customer.txt\n");
-        return -1;        
+        return -1;        // arquivo nao abriu, entao nao ha o que fechar
     }
-    resultado = 0;        
-    fclose(arquivo);      
-    return resultado;
+    char linha[TAM_LINHA];
+    int num_linha = 0;
+    int clientes = 0;
+    int viu_branca = 0;
+
+    // primeira passada, conta o numero de linhas e valida o formato de cada linha
+    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
+        num_linha++;
+
+        size_t tam = strlen(linha);
+
+        //se nao terminou em '\n' e nao e o fim do arquivo, a linha estourou o buffer
+        if (tam > 0 && linha[tam - 1] != '\n' && !feof(arquivo)) {
+            fprintf(stderr, "Erro: customer.txt, linha %d: linha muito longa\n", num_linha);
+            fclose(arquivo);
+            return -1;
+        }
+
+        //remove '\n' e '\r' do final (arquivos do Windows)
+        while (tam > 0 && (linha[tam - 1] == '\n' || linha[tam - 1] == '\r'))
+            linha[--tam] = '\0';
+
+        //linha em branco: so e permitida no final do arquivo
+        if (tam == 0) {
+            viu_branca = 1;
+            continue;
+        }
+
+        //linha com conteudo depois de uma em branco = branca no meio
+        if (viu_branca) {
+            fprintf(stderr, "Erro: customer.txt, linha em branco antes da linha %d\n", num_linha);
+            fclose(arquivo);
+            return -1;
+        }
+
+        if (validar_linha(linha, estado_sistema->m, NULL) != 0) {
+            fprintf(stderr, "Erro: customer.txt, linha %d: formato invalido (esperado %d numeros inteiros separados por virgula)\n", num_linha, estado_sistema->m);
+            fclose(arquivo);
+            return -1;
+        }
+
+        clientes++;
+    }
+
+    if (clientes == 0) {
+        fprintf(stderr, "Erro: customer.txt esta vazio\n");
+        fclose(arquivo);
+        return -1;
+    }
+
+    estado_sistema->n = clientes;
+
+    //allocacao das matrizes maximum, allocation e need
+    estado_sistema->maximum = alocar_matriz(estado_sistema->n, estado_sistema->m);
+    estado_sistema->allocation = alocar_matriz(estado_sistema->n, estado_sistema->m);
+    estado_sistema->need = alocar_matriz(estado_sistema->n, estado_sistema->m);
+
+    if (estado_sistema->maximum == NULL || estado_sistema->allocation == NULL || estado_sistema->need == NULL) {
+        fprintf(stderr, "Erro: falha de memoria ao alocar as matrizes\n");
+        fclose(arquivo);
+        return -1;   // sem free: o main chama liberar_estado, que libera as que foram alocadas
+    }
+    //segunda passada, le os valores e preenche a matriz maximum
+
+    fclose(arquivo);
+    return 0;
 }
 
 //libera a struct
@@ -143,11 +222,17 @@ int main(int argc, char const *argv[]){
         liberar_estado(&estado_sistema);
         return 1;
     }
-    //impressao para debug
+    retorno = ler_customer(&estado_sistema);
+    if (retorno != 0) {
+        liberar_estado(&estado_sistema);
+        return 1;
+    }
+    //impressao para debug (apagar quando o programa estiver completo)
     printf("%d recursos:", estado_sistema.m);
     for (int i = 0; i < estado_sistema.m; i++)
         printf(" %d", estado_sistema.total[i]);
     printf("\n");
+    printf("%d clientes\n", estado_sistema.n);
     liberar_estado(&estado_sistema);
     return 0;
 }
