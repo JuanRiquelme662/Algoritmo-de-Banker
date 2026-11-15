@@ -628,10 +628,21 @@ int main(int argc, char const *argv[]){
         return 1;
     }
 
-    //le o commands.txt, valida tudo e executa os comandos
-    //por enquanto a saida vai para a tela (stdout); depois troca pelo result.txt
-    retorno = processar_commands(&estado_sistema, stdout);
+    //abre o arquivo de saida em modo "w" (cria ou sobrescreve um result.txt antigo)
+    FILE *saida = fopen("result.txt", "w");
+    if (saida == NULL) {
+        fprintf(stderr, "Erro: nao foi possivel criar result.txt\n");
+        liberar_estado(&estado_sistema);
+        return 1;
+    }
+
+    //le o commands.txt, valida tudo e executa os comandos, gravando em result.txt
+    retorno = processar_commands(&estado_sistema, saida);
+    fclose(saida);
+
     if (retorno != 0) {
+        //a execucao falhou: apaga o result.txt para nao deixar um arquivo vazio ou incompleto
+        remove("result.txt");
         liberar_estado(&estado_sistema);
         return 1;
     }
