@@ -347,80 +347,6 @@ int ler_customer(estado *estado_sistema){
     return 0;
 }
 
-int processar_commands(estado *estado_sistema, FILE *saida){
-    FILE *arquivo = fopen("commands.txt", "r");
-
-    if (arquivo == NULL) {
-        fprintf(stderr, "Erro: nao foi possivel abrir commands.txt\n");
-        return -1;        // arquivo nao abriu, entao nao ha o que fechar
-    }
-
-    char linha[TAM_LINHA];
-    int num_linha = 0;
-    //contador de comandos validos
-    int comandos = 0;
-    //flag para linhas brancas
-    int linha_branca = 0;  
-    //primeira passada, valida o arquivo antes da execucao na segunda passada
-    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
-        num_linha++;
-
-        size_t tam = strlen(linha);
-
-        //se nao terminou em '\n' e nao e o fim do arquivo, a linha estourou o buffer
-        if (tam > 0 && linha[tam - 1] != '\n' && !feof(arquivo)) {
-            fprintf(stderr, "Erro: commands.txt, linha %d: linha muito longa\n", num_linha);
-            fclose(arquivo);
-            return -1;
-        }
-
-        //remove '\n' e '\r' do final
-        while (tam > 0 && (linha[tam - 1] == '\n' || linha[tam - 1] == '\r'))
-            linha[--tam] = '\0';
-
-        //lina em branco so e permitida no final do arquivo
-        if (tam == 0) {
-            linha_branca = 1;
-            continue;
-        }
-
-        if (linha_branca) {
-            fprintf(stderr, "Erro: commands.txt, linha em branco antes da linha %d\n", num_linha);
-            fclose(arquivo);
-            return -1;
-        }
-
-        if (validar_comando(linha, estado_sistema->n, estado_sistema->m, NULL, NULL, NULL) != 0) {
-            fprintf(stderr, "Erro: commands.txt, linha %d: comando invalido (esperado RQ/RL cliente + %d valores, ou *; cliente entre 0 e %d)\n", num_linha, estado_sistema->m, estado_sistema->n - 1);
-            fclose(arquivo);
-            return -1;
-        }
-
-        comandos++;
-    }
-
-    if (comandos == 0) {
-        fprintf(stderr, "Erro: commands.txt nao tem nenhum comando\n");
-        fclose(arquivo);
-        return -1;
-    }
-    
-    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
-        num_linha++;
-        comandos++;
-    }
-    //segunda passada, executa os comandos
-
-    rewind(arquivo);
-    num_linha = 0;
-
-    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
-        num_linha++;
-    }
-
-    fclose(arquivo);
-    return 0;
-}
 
 void imprimir_estado(estado *estado_sistema, FILE *saida){
     fprintf(saida, "MAXIMUM | ALLOCATION | NEED\n");
@@ -568,6 +494,120 @@ int request(estado *e, int c, const int *req, FILE *saida){
     fprintf(saida, "Allocate to customer %d the resources ", c);
     imprimir_vetor(saida, req, e->m);
     fprintf(saida, "\n");
+    return 0;
+}
+
+//funcao responsavel por ler o arquivo commands.txt, validar e executar os comandos
+int processar_commands(estado *estado_sistema, FILE *saida){
+    FILE *arquivo = fopen("commands.txt", "r");
+
+    if (arquivo == NULL) {
+        fprintf(stderr, "Erro: nao foi possivel abrir commands.txt\n");
+        return -1;        // arquivo nao abriu, entao nao ha o que fechar
+    }
+
+    char linha[TAM_LINHA];
+    int num_linha = 0;
+    //contador de comandos validos
+    int comandos = 0;
+    //flag para linhas brancas
+    int linha_branca = 0;  
+    //primeira passada, valida o arquivo antes da execucao na segunda passada
+    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
+        num_linha++;
+
+        size_t tam = strlen(linha);
+
+        //se nao terminou em '\n' e nao e o fim do arquivo, a linha estourou o buffer
+        if (tam > 0 && linha[tam - 1] != '\n' && !feof(arquivo)) {
+            fprintf(stderr, "Erro: commands.txt, linha %d: linha muito longa\n", num_linha);
+            fclose(arquivo);
+            return -1;
+        }
+
+        //remove '\n' e '\r' do final
+        while (tam > 0 && (linha[tam - 1] == '\n' || linha[tam - 1] == '\r'))
+            linha[--tam] = '\0';
+
+        //lina em branco so e permitida no final do arquivo
+        if (tam == 0) {
+            linha_branca = 1;
+            continue;
+        }
+
+        if (linha_branca) {
+            fprintf(stderr, "Erro: commands.txt, linha em branco antes da linha %d\n", num_linha);
+            fclose(arquivo);
+            return -1;
+        }
+
+        if (validar_comando(linha, estado_sistema->n, estado_sistema->m, NULL, NULL, NULL) != 0) {
+            fprintf(stderr, "Erro: commands.txt, linha %d: comando invalido (esperado RQ/RL cliente + %d valores, ou *; cliente entre 0 e %d)\n", num_linha, estado_sistema->m, estado_sistema->n - 1);
+            fclose(arquivo);
+            return -1;
+        }
+
+        comandos++;
+    }
+
+    if (comandos == 0) {
+        fprintf(stderr, "Erro: commands.txt nao tem nenhum comando\n");
+        fclose(arquivo);
+        return -1;
+    }
+    
+    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
+        num_linha++;
+        comandos++;
+    }
+    //segunda passada, executa os comandos
+    rewind(arquivo);
+
+    int *valores = calloc(estado_sistema->m, sizeof(int));
+    if (valores == NULL) {
+        fprintf(stderr, "Erro: falha de memoria\n");
+        fclose(arquivo);
+        return -1;
+    }
+
+    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
+        size_t tam = strlen(linha);
+
+        //remove '\n' e '\r' do final
+        while (tam > 0 && (linha[tam - 1] == '\n' || linha[tam - 1] == '\r'))
+            linha[--tam] = '\0';
+
+        //o arquivo ja foi validado, linhas em branco so podem indicar o final
+        if (tam == 0)
+            continue;
+
+        char tipo;
+        int cliente = 0;
+
+        //valida de novo e extrai o tipo, o cliente e os valores
+        if (validar_comando(linha, estado_sistema->n, estado_sistema->m,&tipo, &cliente, valores) != 0) {
+            fprintf(stderr, "Erro: commands.txt mudou durante a leitura\n");
+            free(valores);
+            fclose(arquivo);
+            return -1;
+        }
+
+        if (tipo == 'Q') {
+            if (request(estado_sistema, cliente, valores, saida) != 0) {
+                fprintf(stderr, "Erro: falha de memoria\n");
+                free(valores);
+                fclose(arquivo);
+                return -1;
+            }
+        } else if (tipo == 'L') {
+            release(estado_sistema, cliente, valores, saida);
+        } else {
+            imprimir_estado(estado_sistema, saida);
+        }
+    }
+
+    free(valores);
+    fclose(arquivo);
     return 0;
 }
 
