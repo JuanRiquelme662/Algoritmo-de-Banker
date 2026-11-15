@@ -95,6 +95,70 @@ int validar_linha(const char *linha, int m, int *valores){
     return 0;
 }
 
+//valida uma linha de comando
+int validar_comando(const char *linha, int n, int m, char *tipo, int *cliente, int *valores){
+    const char *p = linha;
+    char t;
+
+    //identifica o comando
+    if (strncmp(p, "RQ", 2) == 0)
+        t = 'Q';
+    else if (strncmp(p, "RL", 2) == 0)
+        t = 'L';
+    else if (p[0] == '*')
+        t = '*';
+    else
+        return -1;
+
+    if (t == '*') {
+        if (p[1] != '\0')
+            return -1;
+        if (tipo != NULL)
+            *tipo = t;
+        return 0;
+    }
+
+    //pula o RQ ou RL
+    p += 2;
+
+    //exige m + 1 numeros (cliente + m valores), cada um precedido de UM espaco
+    for (int k = 0; k < m + 1; k++) {
+        if (*p != ' ')
+            return -1;
+        p++;
+
+        //isdigit novamente porque exige um digito valido
+        if (!isdigit((unsigned char)*p))
+            return -1;
+
+        char *fim;
+        errno = 0;
+        long valor = strtol(p, &fim, 10);
+
+        if (errno == ERANGE || valor > INT_MAX)
+            return -1;
+
+        if (k == 0) {
+            if (valor >= n)
+                return -1;
+            if (cliente != NULL)
+                *cliente = (int)valor;
+        } else if (valores != NULL) {
+            valores[k - 1] = (int)valor;
+        }
+
+        p = fim;
+    }
+
+    //a linha tem que acabar aqui, nao pode sobrar virgula ou texto
+    if (*p != '\0')
+        return -1;
+
+    if (tipo != NULL)
+        *tipo = t;
+    return 0;
+}
+
 int **alocar_matriz(int n, int m){
     int **matriz = calloc(n, sizeof(int *));
     if (matriz == NULL)
