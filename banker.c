@@ -181,7 +181,56 @@ int ler_customer(estado *estado_sistema){
         fclose(arquivo);
         return -1;   // sem free: o main chama liberar_estado, que libera as que foram alocadas
     }
-    //segunda passada, le os valores e preenche a matriz maximum
+    //segunda passada, le os valores e preenche a matriz maximum, como a matriz ja foi validada na primeira passada
+    //essa so faz preencher as matrizes, entao nao precisa validar novamente
+    rewind(arquivo);  //volta para o inicio do arquivo
+    //indice referente ao cliente atual
+    int i = 0;
+    //reaproveita o contador de linha da primeira passada, para dar mensagens de erro mais precisas
+    num_linha = 0;
+
+    while (i < estado_sistema->n && fgets(linha, sizeof(linha), arquivo) != NULL) {
+        num_linha++;
+
+        //size_t indica tamanho sem sinal, ou seja, qualquer inteiro positivo, muito utilizado para representar tamanhos
+        //para essa situacao acaba sendo mais adequado do que um int
+        size_t tam = strlen(linha);
+
+        //remove '\n' e '\r' do final
+        while (tam > 0 && (linha[tam - 1] == '\n' || linha[tam - 1] == '\r'))
+            linha[--tam] = '\0';
+
+        //como o arquivo ja foi validado, uma linha em branco nessa caso representa o final
+        if (tam == 0)
+            continue;
+
+        //guarda os numeros em maximum[i]
+        if (validar_linha(linha, estado_sistema->m, estado_sistema->maximum[i]) != 0) {
+            fprintf(stderr, "Erro: customer.txt, linha %d: formato invalido\n", num_linha);
+            fclose(arquivo);
+            return -1;
+        }
+
+        for (int j = 0; j < estado_sistema->m; j++) {
+            //o maximo de um cliente nao pode passar do total do recurso
+            if (estado_sistema->maximum[i][j] > estado_sistema->total[j]) {
+                fprintf(stderr, "Erro: customer.txt, linha %d: cliente %d, recurso %d: maximo %d maior que o total %d\n",num_linha, i, j,estado_sistema->maximum[i][j], estado_sistema->total[j]);
+                fclose(arquivo);
+                return -1;
+            }
+            //por contqa do calloc allocation ja esta zerada entao need = maximum
+            estado_sistema->need[i][j] = estado_sistema->maximum[i][j];
+        }
+
+        i++;
+    }
+
+    //confere que carregou exatamente n clientes
+    if (i != estado_sistema->n) {
+        fprintf(stderr, "Erro: customer.txt mudou durante a leitura\n");
+        fclose(arquivo);
+        return -1;
+    }
 
     fclose(arquivo);
     return 0;
@@ -233,6 +282,17 @@ int main(int argc, char const *argv[]){
         printf(" %d", estado_sistema.total[i]);
     printf("\n");
     printf("%d clientes\n", estado_sistema.n);
+    for (int i = 0; i < estado_sistema.n; i++) {
+        for (int j = 0; j < estado_sistema.m; j++)
+            printf("%d ", estado_sistema.maximum[i][j]);
+        printf("| ");
+        for (int j = 0; j < estado_sistema.m; j++)
+            printf("%d ", estado_sistema.allocation[i][j]);
+        printf("| ");
+        for (int j = 0; j < estado_sistema.m; j++)
+            printf("%d ", estado_sistema.need[i][j]);
+        printf("\n");
+    }
     liberar_estado(&estado_sistema);
     return 0;
 }
