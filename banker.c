@@ -236,8 +236,37 @@ int ler_customer(estado *estado_sistema){
     return 0;
 }
 
-int ler_commands(){
+int processar_commands(estado *estado_sistema, FILE *saida){
+    FILE *arquivo = fopen("commands.txt", "r");
+
+    if (arquivo == NULL) {
+        fprintf(stderr, "Erro: nao foi possivel abrir commands.txt\n");
+        return -1;        // arquivo nao abriu, entao nao ha o que fechar
+    }
+
+    char linha[TAM_LINHA];
+    int num_linha = 0;
+    //contador de comandos validos
+    int comandos = 0;
+    //flag para linhas brancas
+    int linha_branca = 0;  
+    //primeira passada, valida o arquivo antes da execucao na segunda passada
     
+    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
+        num_linha++;
+        comandos++;
+    }
+    //segunda passada, executa os comandos
+
+    rewind(arquivo);
+    num_linha = 0;
+
+    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
+        num_linha++;
+    }
+
+    fclose(arquivo);
+    return 0;
 }
 
 void imprimir_estado(estado *estado_sistema, FILE *saida){
