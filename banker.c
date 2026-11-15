@@ -18,6 +18,53 @@ typedef struct estado{
     int *available;
 } estado;
 
+//algoritimo de seguranca, verifica se o estado atual e seguro, ou seja, se todos os clientes podem terminar
+int is_safe(estado *e){
+    int *work = malloc(e->m * sizeof(int));
+    int *finish = calloc(e->n, sizeof(int));
+
+    if (work == NULL || finish == NULL) {
+        free(work);
+        free(finish);
+        return -1;
+    }
+
+    for (int j = 0; j < e->m; j++)
+        work[j] = e->available[j];
+
+    int terminados = 0;
+    int achou = 1;
+
+    //enquanto algum cliente conseguir terminar, devolve o que ele tem e repete
+    while (achou) {
+        achou = 0;
+        for (int i = 0; i < e->n; i++) {
+            if (finish[i])
+                continue;
+
+            int cabe = 1;
+            for (int j = 0; j < e->m; j++) {
+                if (e->need[i][j] > work[j]) {
+                    cabe = 0;
+                    break;
+                }
+            }
+
+            if (cabe) {
+                for (int j = 0; j < e->m; j++)
+                    work[j] += e->allocation[i][j];
+                finish[i] = 1;
+                terminados++;
+                achou = 1;
+            }
+        }
+    }
+
+    free(work);
+    free(finish);
+    return terminados == e->n;
+}
+
 
 int validacao (int argc, char const *argv[], estado *estado_sistema){
     //verifica se a quantidade de argumentos e valida
@@ -34,7 +81,6 @@ int validacao (int argc, char const *argv[], estado *estado_sistema){
     //checa se o malloc deu certo
     if (estado_sistema->total == NULL || estado_sistema->available == NULL) {
         fprintf(stderr, "Erro: falha de memoria\n");
-        // o que tiver sido alocado (mesmo se so um dos dois deu certo)
         return 1;
     }
 
@@ -176,6 +222,7 @@ int **alocar_matriz(int n, int m){
     return matriz;
 }
 
+//funcao que le o arquivo de entrada customer.txt, valida e preenche a struct estado_sistema
 int ler_customer(estado *estado_sistema){
     FILE *arquivo = fopen("customer.txt", "r");
 
@@ -188,7 +235,7 @@ int ler_customer(estado *estado_sistema){
     int clientes = 0;
     int linha_branca = 0;
 
-    // primeira passada, conta o numero de linhas e valida o formato de cada linha
+    //primeira passada, conta o numero de linhas e valida o formato de cada linha
     while (fgets(linha, sizeof(linha), arquivo) != NULL) {
         num_linha++;
 
