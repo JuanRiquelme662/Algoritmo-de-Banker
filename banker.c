@@ -408,6 +408,15 @@ void imprimir_estado(estado *estado_sistema, FILE *saida){
     fprintf(saida, "\n");
 }
 
+//funcao responsavel por mostrar mensagens de saida que tem um vetor no meio
+void imprimir_vetor(FILE *saida, const int *v, int m){
+    for (int j = 0; j < m; j++) {
+        if (j > 0)
+            fprintf(saida, " ");
+        fprintf(saida, "%d", v[j]);
+    }
+}
+
 //libera a struct
 void liberar_matriz(int **matriz, int n){
     if (matriz == NULL){
