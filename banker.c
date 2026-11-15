@@ -3,11 +3,11 @@
 #include <errno.h>
 #include <limits.h>
 
-void validacao_args(int argc, char const *argv[]){
+int main(int argc, char const *argv[]){
     //verifica se a quantidade de argumentos e valida
     if(argc < 2){
         printf("uso: ./banker 10 5 7\n");
-        return;
+        return 1;
     }
     int n = argc - 1;
     //vetor que vai representar a quantidade total de instancias disponiveis
@@ -15,7 +15,7 @@ void validacao_args(int argc, char const *argv[]){
     //checa se o malloc deu certo
     if (total == NULL) {
         fprintf(stderr, "Erro: falha de memoria\n");
-        return;
+        return 1;
     }
 
     //vai verificar cada argumento e adicionalo dentro do vetor responsavel por definir a quantidade de instancias
@@ -29,12 +29,12 @@ void validacao_args(int argc, char const *argv[]){
         if (fim == argv[i + 1] || *fim != '\0') {
             fprintf(stderr, "Erro: argumento '%s' nao e um numero valido\n", argv[i + 1]);
             free(total);
-            return;
+            return 1;
         }
         if (errno == ERANGE || valor < 0 || valor > INT_MAX) {
             fprintf(stderr, "Erro: argumento '%s' fora do intervalo permitido\n", argv[i + 1]);
             free(total);
-            return;
+            return 1;
         }
         //faz o casting de valor, de long para int
         //e adiciona aquele valor dentro do vetor total
@@ -46,9 +46,5 @@ void validacao_args(int argc, char const *argv[]){
     printf("\n");
 
     free(total);
-}
-
-int main(int argc, char const *argv[]){
-    validacao_args(argc,argv);
     return 0;
 }
