@@ -621,18 +621,21 @@ int main(int argc, char const *argv[]){
         liberar_estado(&estado_sistema);
         return 1;
     }
+
     retorno = ler_customer(&estado_sistema);
     if (retorno != 0) {
         liberar_estado(&estado_sistema);
         return 1;
     }
-    //impressao para debug (apagar quando o programa estiver completo)
-    printf("%d recursos:", estado_sistema.m);
-    for (int i = 0; i < estado_sistema.m; i++)
-        printf(" %d", estado_sistema.total[i]);
-    printf("\n");
-    printf("%d clientes\n", estado_sistema.n);
-    imprimir_estado(&estado_sistema, stdout);
+
+    //le o commands.txt, valida tudo e executa os comandos
+    //por enquanto a saida vai para a tela (stdout); depois troca pelo result.txt
+    retorno = processar_commands(&estado_sistema, stdout);
+    if (retorno != 0) {
+        liberar_estado(&estado_sistema);
+        return 1;
+    }
+
     liberar_estado(&estado_sistema);
     return 0;
 }
