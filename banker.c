@@ -5,6 +5,11 @@
 
 //struct para guardar os vetores e o estado geral dos recursos
 typedef struct estado{
+    //numero de clientes
+    int n;
+    int **maximum;
+    int **allocation;
+    int **need;
     int m;
     int *total;
     int *available;
@@ -54,12 +59,42 @@ int validacao (int argc, char const *argv[], estado *estado_sistema){
     return 0;
 }
 
+int ler_customer(estado *estado_sistema){
+    int resultado = -1;   // so vira 0 se tudo der certo
+    FILE *arquivo = fopen("customer.txt", "r");
+
+    if (arquivo == NULL) {
+        fprintf(stderr, "Erro: nao foi possivel abrir customer.txt\n");
+        return -1;        
+    }
+    resultado = 0;        
+    fclose(arquivo);      
+    return resultado;
+}
+
 //libera a struct
+void liberar_matriz(int **matriz, int n){
+    if (matriz == NULL){
+        return;
+    }
+    for (int i = 0; i < n; i++){
+        free(matriz[i]); 
+    }
+    free(matriz);
+}
+
 void liberar_estado(estado *estado_sistema){
     free(estado_sistema->total);
     free(estado_sistema->available);
     estado_sistema->total = NULL;
     estado_sistema->available = NULL;
+
+    liberar_matriz(estado_sistema->maximum, estado_sistema->n);
+    liberar_matriz(estado_sistema->allocation, estado_sistema->n);
+    liberar_matriz(estado_sistema->need, estado_sistema->n);
+    estado_sistema->maximum = NULL;
+    estado_sistema->allocation = NULL;
+    estado_sistema->need = NULL;
 }
 
 int main(int argc, char const *argv[]){
