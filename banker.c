@@ -236,6 +236,43 @@ int ler_customer(estado *estado_sistema){
     return 0;
 }
 
+int ler_commands(){
+    
+}
+
+void imprimir_estado(estado *estado_sistema, FILE *saida){
+    fprintf(saida, "MAXIMUM | ALLOCATION | NEED\n");
+
+    for (int i = 0; i < estado_sistema->n; i++) {
+        //maximum
+        for (int j = 0; j < estado_sistema->m; j++) {
+            if (j > 0)
+                fprintf(saida, " ");   // espaco so ENTRE os valores
+            fprintf(saida, "%d", estado_sistema->maximum[i][j]);
+        }
+        fprintf(saida, " | ");
+        //allocation
+        for (int j = 0; j < estado_sistema->m; j++) {
+            if (j > 0)
+                fprintf(saida, " ");
+            fprintf(saida, "%d", estado_sistema->allocation[i][j]);
+        }
+        fprintf(saida, " | ");
+        //need
+        for (int j = 0; j < estado_sistema->m; j++) {
+            if (j > 0)
+                fprintf(saida, " ");
+            fprintf(saida, "%d", estado_sistema->need[i][j]);
+        }
+        fprintf(saida, "\n");
+    }
+    //ultima linha: AVAILABLE seguido dos valores
+    fprintf(saida, "AVAILABLE");
+    for (int j = 0; j < estado_sistema->m; j++)
+        fprintf(saida, " %d", estado_sistema->available[j]);
+    fprintf(saida, "\n");
+}
+
 //libera a struct
 void liberar_matriz(int **matriz, int n){
     if (matriz == NULL){
@@ -282,17 +319,7 @@ int main(int argc, char const *argv[]){
         printf(" %d", estado_sistema.total[i]);
     printf("\n");
     printf("%d clientes\n", estado_sistema.n);
-    for (int i = 0; i < estado_sistema.n; i++) {
-        for (int j = 0; j < estado_sistema.m; j++)
-            printf("%d ", estado_sistema.maximum[i][j]);
-        printf("| ");
-        for (int j = 0; j < estado_sistema.m; j++)
-            printf("%d ", estado_sistema.allocation[i][j]);
-        printf("| ");
-        for (int j = 0; j < estado_sistema.m; j++)
-            printf("%d ", estado_sistema.need[i][j]);
-        printf("\n");
-    }
+    imprimir_estado(&estado_sistema, stdout);
     liberar_estado(&estado_sistema);
     return 0;
 }
