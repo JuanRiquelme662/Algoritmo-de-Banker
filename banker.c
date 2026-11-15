@@ -513,6 +513,64 @@ void release(estado *e, int c, const int *req, FILE *saida){
     fprintf(saida, "\n");
 }
 
+//trata RQ
+//e a responsavel por aceitar ou negar o pedido de um cliente
+int request(estado *e, int c, const int *req, FILE *saida){
+    //pedido nao pode passar da necessidade do cliente
+    for (int j = 0; j < e->m; j++) {
+        if (req[j] > e->need[c][j]) {
+            fprintf(saida, "The customer %d request ", c);
+            imprimir_vetor(saida, req, e->m);
+            fprintf(saida, " was denied because exceed its maximum allocation\n");
+            return 0;
+        }
+    }
+
+    //pedido nao pode passar do que esta disponivel
+    for (int j = 0; j < e->m; j++) {
+        if (req[j] > e->available[j]) {
+            fprintf(saida, "The resources ");
+            imprimir_vetor(saida, e->available, e->m);
+            fprintf(saida, " are not enough to customer %d request ", c);
+            imprimir_vetor(saida, req, e->m);
+            fprintf(saida, "\n");
+            return 0;
+        }
+    }
+
+    //simula a alocacao
+    for (int j = 0; j < e->m; j++) {
+        e->available[j] -= req[j];
+        e->allocation[c][j] += req[j];
+        e->need[c][j] -= req[j];
+    }
+
+    //checa se o estado resultante e seguro
+    int seguro = is_safe(e);
+
+    //caso nao passe no check desfaz a simulacao
+    if (seguro != 1) {
+        for (int j = 0; j < e->m; j++) {
+            e->available[j] += req[j];
+            e->allocation[c][j] -= req[j];
+            e->need[c][j] += req[j];
+        }
+        if (seguro < 0)
+            return -1;
+
+        fprintf(saida, "The customer %d request ", c);
+        imprimir_vetor(saida, req, e->m);
+        fprintf(saida, " was denied because result in an unsafe state\n");
+        return 0;
+    }
+
+    //caso contrario, a operacao e liberada
+    fprintf(saida, "Allocate to customer %d the resources ", c);
+    imprimir_vetor(saida, req, e->m);
+    fprintf(saida, "\n");
+    return 0;
+}
+
 int main(int argc, char const *argv[]){
     //struct estado_sistema e zerada (fazendo todos atributos comecarem com NULL)
     estado estado_sistema = {0};
