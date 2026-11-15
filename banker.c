@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <limits.h>
+#include <ctype.h>
+#include <string.h>
+#define TAM_LINHA 1024
 
 //struct para guardar os vetores e o estado geral dos recursos
 typedef struct estado{
@@ -59,8 +62,41 @@ int validacao (int argc, char const *argv[], estado *estado_sistema){
     return 0;
 }
 
+int validar_linha(const char *linha, int m, int *valores){
+    const char *p = linha;
+
+    for (int j = 0; j < m; j++) {
+        //uso isdigit porque strtol aceita espacos em branco, mas nao queremos aceitar
+        if (!isdigit((unsigned char)*p))
+            return -1;
+
+        char *fim;
+        errno = 0;
+        long valor = strtol(p, &fim, 10);
+
+        if (errno == ERANGE || valor > INT_MAX)
+            return -1;
+
+        if (valores != NULL)
+            valores[j] = (int)valor;
+
+        if (j < m - 1) {
+            // ainda faltam numeros: tem que vir uma virgula logo depois
+            if (*fim != ',')
+                return -1;
+            p = fim + 1;
+        } else {
+            // ultimo numero: a linha tem que acabar aqui
+            // (sobrar virgula ou texto significa colunas a mais ou lixo)
+            if (*fim != '\0')
+                return -1;
+        }
+    }
+    return 0;
+}
+
 int ler_customer(estado *estado_sistema){
-    int resultado = -1;   // so vira 0 se tudo der certo
+    int resultado = -1;   
     FILE *arquivo = fopen("customer.txt", "r");
 
     if (arquivo == NULL) {
