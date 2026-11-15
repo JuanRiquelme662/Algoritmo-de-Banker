@@ -186,7 +186,7 @@ int ler_customer(estado *estado_sistema){
     char linha[TAM_LINHA];
     int num_linha = 0;
     int clientes = 0;
-    int viu_branca = 0;
+    int linha_branca = 0;
 
     // primeira passada, conta o numero de linhas e valida o formato de cada linha
     while (fgets(linha, sizeof(linha), arquivo) != NULL) {
@@ -207,12 +207,12 @@ int ler_customer(estado *estado_sistema){
 
         //linha em branco: so e permitida no final do arquivo
         if (tam == 0) {
-            viu_branca = 1;
+            linha_branca = 1;
             continue;
         }
 
         //linha com conteudo depois de uma em branco = branca no meio
-        if (viu_branca) {
+        if (linha_branca) {
             fprintf(stderr, "Erro: customer.txt, linha em branco antes da linha %d\n", num_linha);
             fclose(arquivo);
             return -1;
@@ -315,6 +315,48 @@ int processar_commands(estado *estado_sistema, FILE *saida){
     //flag para linhas brancas
     int linha_branca = 0;  
     //primeira passada, valida o arquivo antes da execucao na segunda passada
+    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
+        num_linha++;
+
+        size_t tam = strlen(linha);
+
+        //se nao terminou em '\n' e nao e o fim do arquivo, a linha estourou o buffer
+        if (tam > 0 && linha[tam - 1] != '\n' && !feof(arquivo)) {
+            fprintf(stderr, "Erro: commands.txt, linha %d: linha muito longa\n", num_linha);
+            fclose(arquivo);
+            return -1;
+        }
+
+        //remove '\n' e '\r' do final
+        while (tam > 0 && (linha[tam - 1] == '\n' || linha[tam - 1] == '\r'))
+            linha[--tam] = '\0';
+
+        //lina em branco so e permitida no final do arquivo
+        if (tam == 0) {
+            linha_branca = 1;
+            continue;
+        }
+
+        if (linha_branca) {
+            fprintf(stderr, "Erro: commands.txt, linha em branco antes da linha %d\n", num_linha);
+            fclose(arquivo);
+            return -1;
+        }
+
+        if (validar_comando(linha, estado_sistema->n, estado_sistema->m, NULL, NULL, NULL) != 0) {
+            fprintf(stderr, "Erro: commands.txt, linha %d: comando invalido (esperado RQ/RL cliente + %d valores, ou *; cliente entre 0 e %d)\n", num_linha, estado_sistema->m, estado_sistema->n - 1);
+            fclose(arquivo);
+            return -1;
+        }
+
+        comandos++;
+    }
+
+    if (comandos == 0) {
+        fprintf(stderr, "Erro: commands.txt nao tem nenhum comando\n");
+        fclose(arquivo);
+        return -1;
+    }
     
     while (fgets(linha, sizeof(linha), arquivo) != NULL) {
         num_linha++;
