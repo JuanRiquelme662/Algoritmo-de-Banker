@@ -442,6 +442,30 @@ void liberar_estado(estado *estado_sistema){
     estado_sistema->need = NULL;
 }
 
+//trata o RL
+//libera oque o cliente tem alocado, e devolve para o vetor available
+void release(estado *e, int c, const int *req, FILE *saida){
+    //o cliente so pode liberar o que tem alocado
+    for (int j = 0; j < e->m; j++) {
+        if (req[j] > e->allocation[c][j]) {
+            fprintf(saida, "The customer %d release ", c);
+            imprimir_vetor(saida, req, e->m);
+            fprintf(saida, " was denied because exceed its allocation\n");
+            return;
+        }
+    }
+
+    for (int j = 0; j < e->m; j++) {
+        e->available[j] += req[j];
+        e->allocation[c][j] -= req[j];
+        e->need[c][j] += req[j];
+    }
+
+    fprintf(saida, "Release from customer %d the resources ", c);
+    imprimir_vetor(saida, req, e->m);
+    fprintf(saida, "\n");
+}
+
 int main(int argc, char const *argv[]){
     //struct estado_sistema e zerada (fazendo todos atributos comecarem com NULL)
     estado estado_sistema = {0};
