@@ -349,36 +349,53 @@ int ler_customer(estado *estado_sistema){
 
 
 void imprimir_estado(estado *estado_sistema, FILE *saida){
-    fprintf(saida, "MAXIMUM | ALLOCATION | NEED\n");
+    fprintf(saida, "MAXIMUM   |   ALLOCATION  |   NEED\n");
 
     for (int i = 0; i < estado_sistema->n; i++) {
-        //maximum
+        int escritos;
+
+        // 1a coluna (maximum): imprime os valores e completa ate 10 caracteres
+        escritos = 0;
         for (int j = 0; j < estado_sistema->m; j++) {
             if (j > 0)
-                fprintf(saida, " ");   // espaco so ENTRE os valores
-            fprintf(saida, "%d", estado_sistema->maximum[i][j]);
+                escritos += fprintf(saida, " ");
+            escritos += fprintf(saida, "%d", estado_sistema->maximum[i][j]);
         }
-        fprintf(saida, " | ");
-        //allocation
+        // pelo menos um espaco antes do '|', mesmo se a coluna estourar a largura
+        do {
+            fprintf(saida, " ");
+            escritos++;
+        } while (escritos < 10);
+        fprintf(saida, "|   ");
+
+        // 2a coluna (allocation): contador zerado, completa ate 12 caracteres
+        escritos = 0;
         for (int j = 0; j < estado_sistema->m; j++) {
             if (j > 0)
-                fprintf(saida, " ");
-            fprintf(saida, "%d", estado_sistema->allocation[i][j]);
+                escritos += fprintf(saida, " ");
+            escritos += fprintf(saida, "%d", estado_sistema->allocation[i][j]);
         }
-        fprintf(saida, " | ");
-        //need
+        do {
+            fprintf(saida, " ");
+            escritos++;
+        } while (escritos < 12);
+        fprintf(saida, "|   ");
+
+        // 3a coluna (need): sem preenchimento, mas com um espaco no fim da linha,
+        // como no arquivo do professor
         for (int j = 0; j < estado_sistema->m; j++) {
             if (j > 0)
                 fprintf(saida, " ");
             fprintf(saida, "%d", estado_sistema->need[i][j]);
         }
-        fprintf(saida, "\n");
+        fprintf(saida, " \n");
     }
-    //ultima linha: AVAILABLE seguido dos valores
+
+    // o AVAILABLE tambem termina com um espaco no arquivo do professor
     fprintf(saida, "AVAILABLE");
     for (int j = 0; j < estado_sistema->m; j++)
         fprintf(saida, " %d", estado_sistema->available[j]);
-    fprintf(saida, "\n");
+    fprintf(saida, " \n");
 }
 
 //funcao responsavel por mostrar mensagens de saida que tem um vetor no meio
@@ -459,7 +476,7 @@ int request(estado *e, int c, const int *req, FILE *saida){
             imprimir_vetor(saida, e->available, e->m);
             fprintf(saida, " are not enough to customer %d request ", c);
             imprimir_vetor(saida, req, e->m);
-            fprintf(saida, "\n");
+            fprintf(saida, " \n");
             return 0;
         }
     }
