@@ -234,4 +234,3698 @@ make: *** [Makefile:9: banker] Error 1
 make: *** [Makefile:9: banker] Error 1
 [?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ make
 [?2004lgcc -Wall -Wextra -std=c11 -g -o banker banker.c
-[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/M
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/MScript started on 2026-11-16 14:17:19-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="175" LINES="10"]
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ make clear[Kn
+[?2004lrm -f banker result.txt
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ make
+[?2004lgcc -Wall -Wextra -std=c11 -g -o banker banker.c
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [7mchmod +x run_tests.sh[27mchmod +x run_tests.sh
+[?2004l[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [7m./run_tests.sh      [27m./run_tests.sh      
+[?2004l=== Exemplo do enunciado ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+--- INFO: diff exato com esperado.txt do professor:
+diferente (rode: diff result.txt esperado.txt)
+
+=== A: unsafe logo no comeco ===
+--- argumentos: [4]
+--- customer.txt:
+3$
+3$
+--- commands.txt:
+RQ 0 2$
+RQ 1 2$
+RQ 1 1$
+*$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 2
+The customer 1 request 2 was denied because result in an unsafe state
+Allocate to customer 1 the resources 1
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   2           |   1 
+3         |   1           |   2 
+AVAILABLE 1 
+RESULTADO: PASS
+
+=== B: 2 recursos, liberacao invalida e pedido de zeros ===
+--- argumentos: [5 5]
+--- customer.txt:
+3,3$
+2,2$
+--- commands.txt:
+RL 0 1 0$
+RQ 0 0 0$
+RQ 1 2 2$
+RL 1 1 1$
+RQ 0 3 3$
+*$
+--- codigo de saida: 0
+--- result.txt:
+The customer 0 release 1 0 was denied because exceed its allocation
+Allocate to customer 0 the resources 0 0
+Allocate to customer 1 the resources 2 2
+Release from customer 1 the resources 1 1
+Allocate to customer 0 the resources 3 3
+MAXIMUM   |   ALLOCATION  |   NEED
+3 3       |   3 3         |   0 0 
+2 2       |   1 1         |   1 1 
+AVAILABLE 1 1 
+RESULTADO: PASS
+
+=== C: recursos insuficientes ===
+--- argumentos: [2]
+--- customer.txt:
+2$
+2$
+--- commands.txt:
+RQ 0 2$
+RQ 1 1$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 2
+The resources 0 are not enough to customer 1 request 1 
+RESULTADO: PASS
+
+=== Comando * como primeiro comando ===
+--- argumentos: [4]
+--- customer.txt:
+3$
+3$
+--- commands.txt:
+*$
+RQ 0 1$
+*$
+--- codigo de saida: 0
+--- result.txt:
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   0           |   3 
+3         |   0           |   3 
+AVAILABLE 4 
+Allocate to customer 0 the resources 1
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   1           |   2 
+3         |   0           |   3 
+AVAILABLE 3 
+RESULTADO: PASS
+
+=== Linha em branco no final dos dois arquivos ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Arquivos com quebra de linha do Windows (CRLF) ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3^M$
+3,2,2^M$
+9,0,2^M$
+2,2,2^M$
+4,3,3^M$
+--- commands.txt:
+RQ 0 0 2 1^M$
+RQ 2 3 0 2^M$
+RQ 1 2 0 0^M$
+RQ 4 0 0 2^M$
+RL 0 0 1 1^M$
+RQ 3 2 1 1^M$
+*^M$
+RQ 4 4 0 0^M$
+RQ 1 1 0 2^M$
+RQ 0 0 2 0^M$
+RQ 2 0 1 0^M$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Ultima linha sem quebra de linha ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Argumentos: nenhum ===
+--- argumentos: []
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+uso: ./banker 10 5 7
+RESULTADO: PASS
+
+=== Argumentos: texto (abc) ===
+--- argumentos: [abc]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento 'abc' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: negativo ===
+--- argumentos: [10 -5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '-5' fora do intervalo permitido
+RESULTADO: PASS
+
+=== Argumentos: numero com letra (5x) ===
+--- argumentos: [10 5x 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '5x' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: numero gigante ===
+--- argumentos: [99999999999999999999]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '99999999999999999999' fora do intervalo permitido
+RESULTADO: PASS
+
+=== Argumentos: argumento vazio ===
+--- argumentos: []
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: a menos que as colunas ===
+--- argumentos: [10 5]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 2 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== Argumentos: a mais que as colunas ===
+--- argumentos: [10 5 7 9]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 4 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== Argumentos: max do cliente acima do total ===
+--- argumentos: [5 5 5]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: cliente 0, recurso 0: maximo 7 maior que o total 5
+RESULTADO: PASS
+
+=== customer: inexistente ===
+--- argumentos: [10 5 7]
+--- customer.txt: (nao existe)
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: nao foi possivel abrir customer.txt
+RESULTADO: PASS
+
+=== customer: vazio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt esta vazio
+RESULTADO: PASS
+
+=== customer: linha com 2 colunas ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: linha com 4 colunas ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3,1$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: letra no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5x,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: espaco apos a virgula ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7, 5, 3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: virgula no fim ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3,$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: numero negativo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,-5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: max acima do total ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,8$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: cliente 0, recurso 2: maximo 8 maior que o total 7
+RESULTADO: PASS
+
+=== customer: linha em branco no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha em branco antes da linha 3
+RESULTADO: PASS
+
+=== commands: inexistente ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt: (nao existe)
+--- codigo de saida: 1
+--- stderr:
+Erro: nao foi possivel abrir commands.txt
+RESULTADO: PASS
+
+=== commands: vazio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt nao tem nenhum comando
+RESULTADO: PASS
+
+=== commands: numero faltando ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: numero a mais ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2 3 4$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: comando desconhecido ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RX 0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: comando em minusculo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+rq 0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: cliente fora do intervalo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 5 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: cliente negativo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ -1 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: * com lixo depois ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+* 1$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: espaco duplo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ  0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: espaco no fim da linha ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2 3 $
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: linha em branco no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+$
+RQ 1 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha em branco antes da linha 3
+RESULTADO: PASS
+
+=== commands: erro na ultima linha (nada deve ser gravado) ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 9 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 3: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+==========================================
+TOTAL: 40   PASS: 40   FAIL: 0
+==========================================
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [7mVALGRIND=1 ./run_tests.sh   [27mVALGRIND=1 ./run_tests.sh   
+[?2004l=== Exemplo do enunciado ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+--- INFO: diff exato com esperado.txt do professor:
+diferente (rode: diff result.txt esperado.txt)
+
+=== A: unsafe logo no comeco ===
+--- argumentos: [4]
+--- customer.txt:
+3$
+3$
+--- commands.txt:
+RQ 0 2$
+RQ 1 2$
+RQ 1 1$
+*$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 2
+The customer 1 request 2 was denied because result in an unsafe state
+Allocate to customer 1 the resources 1
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   2           |   1 
+3         |   1           |   2 
+AVAILABLE 1 
+RESULTADO: PASS
+
+=== B: 2 recursos, liberacao invalida e pedido de zeros ===
+--- argumentos: [5 5]
+--- customer.txt:
+3,3$
+2,2$
+--- commands.txt:
+RL 0 1 0$
+RQ 0 0 0$
+RQ 1 2 2$
+RL 1 1 1$
+RQ 0 3 3$
+*$
+--- codigo de saida: 0
+--- result.txt:
+The customer 0 release 1 0 was denied because exceed its allocation
+Allocate to customer 0 the resources 0 0
+Allocate to customer 1 the resources 2 2
+Release from customer 1 the resources 1 1
+Allocate to customer 0 the resources 3 3
+MAXIMUM   |   ALLOCATION  |   NEED
+3 3       |   3 3         |   0 0 
+2 2       |   1 1         |   1 1 
+AVAILABLE 1 1 
+RESULTADO: PASS
+
+=== C: recursos insuficientes ===
+--- argumentos: [2]
+--- customer.txt:
+2$
+2$
+--- commands.txt:
+RQ 0 2$
+RQ 1 1$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 2
+The resources 0 are not enough to customer 1 request 1 
+RESULTADO: PASS
+
+=== Comando * como primeiro comando ===
+--- argumentos: [4]
+--- customer.txt:
+3$
+3$
+--- commands.txt:
+*$
+RQ 0 1$
+*$
+--- codigo de saida: 0
+--- result.txt:
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   0           |   3 
+3         |   0           |   3 
+AVAILABLE 4 
+Allocate to customer 0 the resources 1
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   1           |   2 
+3         |   0           |   3 
+AVAILABLE 3 
+RESULTADO: PASS
+
+=== Linha em branco no final dos dois arquivos ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Arquivos com quebra de linha do Windows (CRLF) ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3^M$
+3,2,2^M$
+9,0,2^M$
+2,2,2^M$
+4,3,3^M$
+--- commands.txt:
+RQ 0 0 2 1^M$
+RQ 2 3 0 2^M$
+RQ 1 2 0 0^M$
+RQ 4 0 0 2^M$
+RL 0 0 1 1^M$
+RQ 3 2 1 1^M$
+*^M$
+RQ 4 4 0 0^M$
+RQ 1 1 0 2^M$
+RQ 0 0 2 0^M$
+RQ 2 0 1 0^M$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Ultima linha sem quebra de linha ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Argumentos: nenhum ===
+--- argumentos: []
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+uso: ./banker 10 5 7
+RESULTADO: PASS
+
+=== Argumentos: texto (abc) ===
+--- argumentos: [abc]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento 'abc' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: negativo ===
+--- argumentos: [10 -5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '-5' fora do intervalo permitido
+RESULTADO: PASS
+
+=== Argumentos: numero com letra (5x) ===
+--- argumentos: [10 5x 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '5x' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: numero gigante ===
+--- argumentos: [99999999999999999999]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '99999999999999999999' fora do intervalo permitido
+RESULTADO: PASS
+
+=== Argumentos: argumento vazio ===
+--- argumentos: []
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: a menos que as colunas ===
+--- argumentos: [10 5]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 2 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== Argumentos: a mais que as colunas ===
+--- argumentos: [10 5 7 9]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 4 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== Argumentos: max do cliente acima do total ===
+--- argumentos: [5 5 5]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: cliente 0, recurso 0: maximo 7 maior que o total 5
+RESULTADO: PASS
+
+=== customer: inexistente ===
+--- argumentos: [10 5 7]
+--- customer.txt: (nao existe)
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: nao foi possivel abrir customer.txt
+RESULTADO: PASS
+
+=== customer: vazio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt esta vazio
+RESULTADO: PASS
+
+=== customer: linha com 2 colunas ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: linha com 4 colunas ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3,1$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: letra no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5x,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: espaco apos a virgula ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7, 5, 3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: virgula no fim ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3,$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: numero negativo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,-5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: max acima do total ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,8$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: cliente 0, recurso 2: maximo 8 maior que o total 7
+RESULTADO: PASS
+
+=== customer: linha em branco no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha em branco antes da linha 3
+RESULTADO: PASS
+
+=== commands: inexistente ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt: (nao existe)
+--- codigo de saida: 1
+--- stderr:
+Erro: nao foi possivel abrir commands.txt
+RESULTADO: PASS
+
+=== commands: vazio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt nao tem nenhum comando
+RESULTADO: PASS
+
+=== commands: numero faltando ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: numero a mais ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2 3 4$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: comando desconhecido ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RX 0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: comando em minusculo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+rq 0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: cliente fora do intervalo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 5 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: cliente negativo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ -1 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: * com lixo depois ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+* 1$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: espaco duplo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ  0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: espaco no fim da linha ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2 3 $
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: linha em branco no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+$
+RQ 1 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha em branco antes da linha 3
+RESULTADO: PASS
+
+=== commands: erro na ultima linha (nada deve ser gravado) ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 9 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 3: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+==========================================
+TOTAL: 40   PASS: 40   FAIL: 0
+==========================================
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [7mvalgrind --leak-check=full --show-leak-kinds=all ./banker 10 5 7 < commands.txt[27mvalgrind --leak-check=full --show-leak-kinds=all ./banker 10 5 7 < commands.txt
+[?2004l==49585== Memcheck, a memory error detector
+==49585== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==49585== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==49585== Command: ./banker 10 5 7
+==49585== 
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+==49585== 
+==49585== HEAP SUMMARY:
+==49585==     in use at exit: 0 bytes in 0 blocks
+==49585==   total heap usage: 4 allocs, 4 frees, 1,008 bytes allocated
+==49585== 
+==49585== All heap blocks were freed -- no leaks are possible
+==49585== 
+==49585== For lists of detected and suppressed errors, rerun with: -s
+==49585== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [K]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-16 14:20:49-03:00 [COMMAND_EXIT_CODE="1"]
+Script started on 2026-11-16 14:22:28-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="175" LINES="17"]
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ exit[75@valgrind --leak-check=full --show-leak-kinds=all ./banker 10 5 7 < commands.tx[C[51PVALGRIND=1 ./run_tests.sh   [8P./run_tests.sh      
+[?2004l=== Exemplo do enunciado ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+--- INFO: diff exato com esperado.txt do professor:
+diferente (rode: diff result.txt esperado.txt)
+
+=== A: unsafe logo no comeco ===
+--- argumentos: [4]
+--- customer.txt:
+3$
+3$
+--- commands.txt:
+RQ 0 2$
+RQ 1 2$
+RQ 1 1$
+*$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 2
+The customer 1 request 2 was denied because result in an unsafe state
+Allocate to customer 1 the resources 1
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   2           |   1 
+3         |   1           |   2 
+AVAILABLE 1 
+RESULTADO: PASS
+
+=== B: 2 recursos, liberacao invalida e pedido de zeros ===
+--- argumentos: [5 5]
+--- customer.txt:
+3,3$
+2,2$
+--- commands.txt:
+RL 0 1 0$
+RQ 0 0 0$
+RQ 1 2 2$
+RL 1 1 1$
+RQ 0 3 3$
+*$
+--- codigo de saida: 0
+--- result.txt:
+The customer 0 release 1 0 was denied because exceed its allocation
+Allocate to customer 0 the resources 0 0
+Allocate to customer 1 the resources 2 2
+Release from customer 1 the resources 1 1
+Allocate to customer 0 the resources 3 3
+MAXIMUM   |   ALLOCATION  |   NEED
+3 3       |   3 3         |   0 0 
+2 2       |   1 1         |   1 1 
+AVAILABLE 1 1 
+RESULTADO: PASS
+
+=== C: recursos insuficientes ===
+--- argumentos: [2]
+--- customer.txt:
+2$
+2$
+--- commands.txt:
+RQ 0 2$
+RQ 1 1$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 2
+The resources 0 are not enough to customer 1 request 1 
+RESULTADO: PASS
+
+=== Comando * como primeiro comando ===
+--- argumentos: [4]
+--- customer.txt:
+3$
+3$
+--- commands.txt:
+*$
+RQ 0 1$
+*$
+--- codigo de saida: 0
+--- result.txt:
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   0           |   3 
+3         |   0           |   3 
+AVAILABLE 4 
+Allocate to customer 0 the resources 1
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   1           |   2 
+3         |   0           |   3 
+AVAILABLE 3 
+RESULTADO: PASS
+
+=== Linha em branco no final dos dois arquivos ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Arquivos com quebra de linha do Windows (CRLF) ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3^M$
+3,2,2^M$
+9,0,2^M$
+2,2,2^M$
+4,3,3^M$
+--- commands.txt:
+RQ 0 0 2 1^M$
+RQ 2 3 0 2^M$
+RQ 1 2 0 0^M$
+RQ 4 0 0 2^M$
+RL 0 0 1 1^M$
+RQ 3 2 1 1^M$
+*^M$
+RQ 4 4 0 0^M$
+RQ 1 1 0 2^M$
+RQ 0 0 2 0^M$
+RQ 2 0 1 0^M$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Ultima linha sem quebra de linha ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Argumentos: nenhum ===
+--- argumentos: []
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+uso: ./banker 10 5 7
+RESULTADO: PASS
+
+=== Argumentos: texto (abc) ===
+--- argumentos: [abc]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento 'abc' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: negativo ===
+--- argumentos: [10 -5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '-5' fora do intervalo permitido
+RESULTADO: PASS
+
+=== Argumentos: numero com letra (5x) ===
+--- argumentos: [10 5x 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '5x' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: numero gigante ===
+--- argumentos: [99999999999999999999]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '99999999999999999999' fora do intervalo permitido
+RESULTADO: PASS
+
+=== Argumentos: argumento vazio ===
+--- argumentos: []
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: a menos que as colunas ===
+--- argumentos: [10 5]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 2 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== Argumentos: a mais que as colunas ===
+--- argumentos: [10 5 7 9]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 4 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== Argumentos: max do cliente acima do total ===
+--- argumentos: [5 5 5]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: cliente 0, recurso 0: maximo 7 maior que o total 5
+RESULTADO: PASS
+
+=== customer: inexistente ===
+--- argumentos: [10 5 7]
+--- customer.txt: (nao existe)
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: nao foi possivel abrir customer.txt
+RESULTADO: PASS
+
+=== customer: vazio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt esta vazio
+RESULTADO: PASS
+
+=== customer: linha com 2 colunas ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: linha com 4 colunas ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3,1$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: letra no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5x,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: espaco apos a virgula ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7, 5, 3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: virgula no fim ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3,$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: numero negativo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,-5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: max acima do total ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,8$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: cliente 0, recurso 2: maximo 8 maior que o total 7
+RESULTADO: PASS
+
+=== customer: linha em branco no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha em branco antes da linha 3
+RESULTADO: PASS
+
+=== commands: inexistente ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt: (nao existe)
+--- codigo de saida: 1
+--- stderr:
+Erro: nao foi possivel abrir commands.txt
+RESULTADO: PASS
+
+=== commands: vazio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt nao tem nenhum comando
+RESULTADO: PASS
+
+=== commands: numero faltando ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: numero a mais ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2 3 4$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: comando desconhecido ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RX 0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: comando em minusculo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+rq 0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: cliente fora do intervalo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 5 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: cliente negativo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ -1 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: * com lixo depois ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+* 1$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: espaco duplo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ  0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: espaco no fim da linha ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2 3 $
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: linha em branco no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+$
+RQ 1 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha em branco antes da linha 3
+RESULTADO: PASS
+
+=== commands: erro na ultima linha (nada deve ser gravado) ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 9 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 3: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+==========================================
+TOTAL: 40   PASS: 40   FAIL: 0
+==========================================
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ ./run_tests.sh      exit[K[75@valgrind --leak-check=full --show-leak-kinds=all ./banker 10 5 7 < commands.tx[C[51PVALGRIND=1 ./run_tests.sh   
+[?2004l=== Exemplo do enunciado ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+--- INFO: diff exato com esperado.txt do professor:
+diferente (rode: diff result.txt esperado.txt)
+
+=== A: unsafe logo no comeco ===
+--- argumentos: [4]
+--- customer.txt:
+3$
+3$
+--- commands.txt:
+RQ 0 2$
+RQ 1 2$
+RQ 1 1$
+*$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 2
+The customer 1 request 2 was denied because result in an unsafe state
+Allocate to customer 1 the resources 1
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   2           |   1 
+3         |   1           |   2 
+AVAILABLE 1 
+RESULTADO: PASS
+
+=== B: 2 recursos, liberacao invalida e pedido de zeros ===
+--- argumentos: [5 5]
+--- customer.txt:
+3,3$
+2,2$
+--- commands.txt:
+RL 0 1 0$
+RQ 0 0 0$
+RQ 1 2 2$
+RL 1 1 1$
+RQ 0 3 3$
+*$
+--- codigo de saida: 0
+--- result.txt:
+The customer 0 release 1 0 was denied because exceed its allocation
+Allocate to customer 0 the resources 0 0
+Allocate to customer 1 the resources 2 2
+Release from customer 1 the resources 1 1
+Allocate to customer 0 the resources 3 3
+MAXIMUM   |   ALLOCATION  |   NEED
+3 3       |   3 3         |   0 0 
+2 2       |   1 1         |   1 1 
+AVAILABLE 1 1 
+RESULTADO: PASS
+
+=== C: recursos insuficientes ===
+--- argumentos: [2]
+--- customer.txt:
+2$
+2$
+--- commands.txt:
+RQ 0 2$
+RQ 1 1$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 2
+The resources 0 are not enough to customer 1 request 1 
+RESULTADO: PASS
+
+=== Comando * como primeiro comando ===
+--- argumentos: [4]
+--- customer.txt:
+3$
+3$
+--- commands.txt:
+*$
+RQ 0 1$
+*$
+--- codigo de saida: 0
+--- result.txt:
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   0           |   3 
+3         |   0           |   3 
+AVAILABLE 4 
+Allocate to customer 0 the resources 1
+MAXIMUM   |   ALLOCATION  |   NEED
+3         |   1           |   2 
+3         |   0           |   3 
+AVAILABLE 3 
+RESULTADO: PASS
+
+=== Linha em branco no final dos dois arquivos ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Arquivos com quebra de linha do Windows (CRLF) ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3^M$
+3,2,2^M$
+9,0,2^M$
+2,2,2^M$
+4,3,3^M$
+--- commands.txt:
+RQ 0 0 2 1^M$
+RQ 2 3 0 2^M$
+RQ 1 2 0 0^M$
+RQ 4 0 0 2^M$
+RL 0 0 1 1^M$
+RQ 3 2 1 1^M$
+*^M$
+RQ 4 4 0 0^M$
+RQ 1 1 0 2^M$
+RQ 0 0 2 0^M$
+RQ 2 0 1 0^M$
+--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Ultima linha sem quebra de linha ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0--- codigo de saida: 0
+--- result.txt:
+Allocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+RESULTADO: PASS
+
+=== Argumentos: nenhum ===
+--- argumentos: []
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+uso: ./banker 10 5 7
+RESULTADO: PASS
+
+=== Argumentos: texto (abc) ===
+--- argumentos: [abc]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento 'abc' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: negativo ===
+--- argumentos: [10 -5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '-5' fora do intervalo permitido
+RESULTADO: PASS
+
+=== Argumentos: numero com letra (5x) ===
+--- argumentos: [10 5x 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '5x' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: numero gigante ===
+--- argumentos: [99999999999999999999]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '99999999999999999999' fora do intervalo permitido
+RESULTADO: PASS
+
+=== Argumentos: argumento vazio ===
+--- argumentos: []
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: argumento '' nao e um numero valido
+RESULTADO: PASS
+
+=== Argumentos: a menos que as colunas ===
+--- argumentos: [10 5]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 2 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== Argumentos: a mais que as colunas ===
+--- argumentos: [10 5 7 9]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 4 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== Argumentos: max do cliente acima do total ===
+--- argumentos: [5 5 5]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: cliente 0, recurso 0: maximo 7 maior que o total 5
+RESULTADO: PASS
+
+=== customer: inexistente ===
+--- argumentos: [10 5 7]
+--- customer.txt: (nao existe)
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: nao foi possivel abrir customer.txt
+RESULTADO: PASS
+
+=== customer: vazio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt esta vazio
+RESULTADO: PASS
+
+=== customer: linha com 2 colunas ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: linha com 4 colunas ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3,1$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: letra no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5x,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: espaco apos a virgula ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7, 5, 3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: virgula no fim ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3,$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: numero negativo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,-5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: formato invalido (esperado 3 numeros inteiros separados por virgula)
+RESULTADO: PASS
+
+=== customer: max acima do total ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,8$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha 1: cliente 0, recurso 2: maximo 8 maior que o total 7
+RESULTADO: PASS
+
+=== customer: linha em branco no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 1 2 0 0$
+RQ 4 0 0 2$
+RL 0 0 1 1$
+RQ 3 2 1 1$
+*$
+RQ 4 4 0 0$
+RQ 1 1 0 2$
+RQ 0 0 2 0$
+RQ 2 0 1 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: customer.txt, linha em branco antes da linha 3
+RESULTADO: PASS
+
+=== commands: inexistente ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt: (nao existe)
+--- codigo de saida: 1
+--- stderr:
+Erro: nao foi possivel abrir commands.txt
+RESULTADO: PASS
+
+=== commands: vazio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt nao tem nenhum comando
+RESULTADO: PASS
+
+=== commands: numero faltando ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: numero a mais ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2 3 4$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: comando desconhecido ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RX 0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: comando em minusculo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+rq 0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: cliente fora do intervalo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 5 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: cliente negativo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ -1 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: * com lixo depois ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+* 1$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: espaco duplo ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ  0 1 2 3$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: espaco no fim da linha ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 1 2 3 $
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 1: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+=== commands: linha em branco no meio ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+$
+RQ 1 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha em branco antes da linha 3
+RESULTADO: PASS
+
+=== commands: erro na ultima linha (nada deve ser gravado) ===
+--- argumentos: [10 5 7]
+--- customer.txt:
+7,5,3$
+3,2,2$
+9,0,2$
+2,2,2$
+4,3,3$
+--- commands.txt:
+RQ 0 0 2 1$
+RQ 2 3 0 2$
+RQ 9 0 0 0$
+--- codigo de saida: 1
+--- stderr:
+Erro: commands.txt, linha 3: comando invalido (esperado RQ/RL cliente + 3 valores, ou *; cliente entre 0 e 4)
+RESULTADO: PASS
+
+==========================================
+TOTAL: 40   PASS: 40   FAIL: 0
+==========================================
+[?2004h]0;mito@JUAN-PC: /mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[01;32mmito@JUAN-PC[00m:[01;34m/mnt/c/Users/Mito/Desktop/repositorios/Pong-Champs/Algoritmo-de-Banker[00m$ VALGRIND=1 ./run_tests.sh   [8P./run_tests.sh      exit[K./run_tests.sh      VALGRIND=1 ./run_tests.sh   [KVALGRIND=1 ./run_tests.sh   [8P./run_tests.sh      exit[K[75@valgrind --leak-check=full --show-leak-kinds=all ./banker 10 5 7 < commands.tx[Cexit[K
+[?2004lexit
+
+Script done on 2026-11-16 14:23:11-03:00 [COMMAND_EXIT_CODE="0"]

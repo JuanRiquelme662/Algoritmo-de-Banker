@@ -15,3 +15,4 @@ The resources 3 3 2 are not enough to customer 4 request 4 0 0
 Allocate to customer 1 the resources 1 0 2
 The customer 0 request 0 2 0 was denied because result in an unsafe state
 The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+
