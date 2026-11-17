@@ -112,9 +112,6 @@ cat result.txt
 ## Ambiente de Desenvolvimento
 Este projeto foi desenvolvido e validado utilizando **Ubuntu via WSL (Windows Subsystem for Linux)** no **Windows**.
 
-Para compilar e executar o projeto, são necessários:
-
-* Sistema operacional **Linux** (nativo ou via **WSL** no Windows)
 
 
 
